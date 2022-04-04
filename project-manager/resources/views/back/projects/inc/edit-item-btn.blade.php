@@ -1,0 +1,1 @@
+<button class="btn btn-sm btn-info edit_item_modal_btn" data-toggle="modal" data-item="{{$item->id}}" data-name="{{$item->name}}" data-delete="{{route('back.projects.sectionItemDelete', $item->id)}}" data-target="#editItemModal" title="Edit Item"><i class="fas fa-edit"></i></button>
